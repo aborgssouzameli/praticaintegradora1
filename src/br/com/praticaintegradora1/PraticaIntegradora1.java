@@ -13,7 +13,7 @@ public class PraticaIntegradora1 {
                 temperaturaBaixaRegistrada[0] = pos;
                 temperaturaBaixaRegistrada[1] = temperaturaBaixa;
             }
-            if (temperaturaAltaCidade < temperaturaAltaRegistrada[1]) {
+            if (temperaturaAltaCidade > temperaturaAltaRegistrada[1]) {
                 temperaturaAltaRegistrada[0] = pos;
                 temperaturaAltaRegistrada[1] = temperaturaAltaCidade;
             }
@@ -26,4 +26,3 @@ public class PraticaIntegradora1 {
                 cidades[temperaturaAltaRegistrada[0]]);
     }
 }
-
